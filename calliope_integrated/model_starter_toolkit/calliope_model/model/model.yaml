@@ -10,9 +10,9 @@ config:
     name: NL Power System dispatch example
     # What version of Calliope this model is intended for
     calliope_version: 0.7.0.dev7
-    # subset.timesteps: ["2025-02-23", "2025-03-01"] # Subset of timesteps
-    # subset.timesteps: ["2025-05-07", "2025-05-14"] # Subset of timesteps
-    subset.timesteps: ["2025-01-01", "2025-12-31"] # Subset of timesteps
+    # subset.timesteps: [2050-02-23", "2050-03-01"] # Subset of timesteps
+    # subset.timesteps: ["2050-05-07", "2050-05-14"] # Subset of timesteps
+    subset.timesteps: ["2050-01-01", "2050-12-31"] # Subset of timesteps
 
     broadcast_input_data: False
     extra_math: ["operate"]

@@ -59,7 +59,7 @@ overrides:
     techs:
       demand_h2_offtake:
         cost_flow_in:
-          data: -0.002 # kEUR per MWh_h2 value proxy for delivered hydrogen
+          data: -0.03 #-0.002 # kEUR per MWh_h2 value proxy for delivered hydrogen
           index: monetary
           dims: costs
       nld_to_h2_offtake_line:

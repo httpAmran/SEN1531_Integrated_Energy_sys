@@ -16,3 +16,13 @@ overrides:
     data_tables:
       renewables:
         data: input_data_tables/cf_avg_real_wake8.csv
+
+  demand_low:
+    data_tables:
+      demand:
+        data: input_data_tables/demand_low.csv
+
+  demand_high:
+    data_tables:
+      demand:
+        data: input_data_tables/demand_high.csv

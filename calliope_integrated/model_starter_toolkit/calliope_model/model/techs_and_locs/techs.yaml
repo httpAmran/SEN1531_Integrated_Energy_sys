@@ -53,7 +53,7 @@ techs:
     source_unit: per_cap
     lifetime: 30 
     cost_flow_cap:
-      data: 1769.1171 # kEUR per MW
+      data: 0 #1769.1171 # kEUR per MW
       index: monetary
       dims: costs
 
@@ -71,7 +71,7 @@ techs:
       flow_in_eff: 0.947 # (charge)
       lifetime: 20 # Battery lifetime in years
       cost_flow_cap:
-        data: 180  # kEUR per MW (power capacity)
+        data: 160  # kEUR per MW (power capacity)
         index: monetary
         dims: costs
       cost_storage_cap:
